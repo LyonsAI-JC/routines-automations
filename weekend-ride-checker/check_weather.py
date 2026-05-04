@@ -15,14 +15,23 @@ TIMEZONE = "Australia/Melbourne"
 OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"
 OUTPUT_PATH = "weekend-ride-checker/weather.json"
 
-# NOTE: "Hallsville" doesn't exist in Victoria - defaulting to Healesville.
-# Update the lat/lng if a different town was meant.
 LOCATIONS = [
-    {"name": "Melbourne",   "lat": -37.8136, "lng": 144.9631},
-    {"name": "Springvale",  "lat": -37.9500, "lng": 145.1500},
-    {"name": "Healesville", "lat": -37.6536, "lng": 145.5167},
-    {"name": "Jamieson",    "lat": -37.2980, "lng": 146.1330},
-    {"name": "Marysville",  "lat": -37.5160, "lng": 145.7440},
+    # Origin / reference
+    {"name": "Springvale",         "lat": -37.9500, "lng": 145.1500},
+    {"name": "Melbourne",          "lat": -37.8136, "lng": 144.9631},
+    # Dandenong Ranges
+    {"name": "Gembrook",           "lat": -37.9483, "lng": 145.5694},
+    # Yarra Ranges / Yarra Valley
+    {"name": "Healesville",        "lat": -37.6536, "lng": 145.5167},
+    {"name": "Warburton",          "lat": -37.7556, "lng": 145.6856},
+    {"name": "Mount Donna Buang",  "lat": -37.7000, "lng": 145.7000},
+    # Reefton Spur (midpoint of the road between Marysville and Warburton)
+    {"name": "Reefton Spur",       "lat": -37.6500, "lng": 145.8000},
+    # Alpine
+    {"name": "Marysville",         "lat": -37.5160, "lng": 145.7440},
+    {"name": "Lake Mountain",      "lat": -37.5167, "lng": 145.8833},
+    # High Country
+    {"name": "Jamieson",           "lat": -37.2980, "lng": 146.1330},
 ]
 
 DAILY_FIELDS = [
