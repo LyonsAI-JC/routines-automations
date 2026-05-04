@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-05-04T06:29:56.239706+00:00",
+  "generated_at": "2026-05-04T07:05:47.298245+00:00",
   "timezone": "Australia/Melbourne",
   "weekend": {
     "saturday": "2026-05-09",
     "sunday": "2026-05-10"
   },
+  "prior_days": [
+    "2026-05-06",
+    "2026-05-07",
+    "2026-05-08"
+  ],
   "source": "https://open-meteo.com",
   "locations": [
     {
@@ -13,50 +18,100 @@
       "longitude": 144.9631,
       "daily": {
         "time": [
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08",
           "2026-05-09",
           "2026-05-10"
         ],
         "weathercode": [
+          61,
+          75,
+          53,
           51,
           51
         ],
         "temperature_2m_max": [
+          18.9,
+          10.1,
+          14.7,
           15.6,
           13.9
         ],
         "temperature_2m_min": [
+          9.9,
+          6.5,
+          10.6,
           11.9,
           12.2
         ],
         "precipitation_sum": [
+          6.6,
+          16.2,
+          4.8,
           1.4,
           1.0
         ],
         "precipitation_probability_max": [
+          92,
+          92,
+          73,
           68,
           47
         ],
         "windspeed_10m_max": [
+          23.6,
+          26.3,
+          26.5,
           15.2,
           12.3
         ],
         "windgusts_10m_max": [
+          54.0,
+          59.0,
+          64.8,
           36.0,
           37.1
         ],
         "winddirection_10m_dominant": [
+          309,
+          249,
+          235,
           234,
           220
         ],
+        "relative_humidity_2m_mean": [
+          66,
+          71,
+          78,
+          82,
+          81
+        ],
+        "et0_fao_evapotranspiration": [
+          2.11,
+          1.53,
+          1.56,
+          1.15,
+          1.11
+        ],
         "uv_index_max": [
+          3.85,
+          2.9,
+          2.7,
           2.0,
           1.35
         ],
         "sunrise": [
+          "2026-05-06T07:05",
+          "2026-05-07T07:06",
+          "2026-05-08T07:07",
           "2026-05-09T07:08",
           "2026-05-10T07:09"
         ],
         "sunset": [
+          "2026-05-06T17:28",
+          "2026-05-07T17:27",
+          "2026-05-08T17:26",
           "2026-05-09T17:25",
           "2026-05-10T17:24"
         ]
@@ -71,6 +126,8 @@
         "windspeed_10m_max": "km/h",
         "windgusts_10m_max": "km/h",
         "winddirection_10m_dominant": "\u00b0",
+        "relative_humidity_2m_mean": "%",
+        "et0_fao_evapotranspiration": "mm",
         "uv_index_max": "",
         "sunrise": "iso8601",
         "sunset": "iso8601"
@@ -82,50 +139,100 @@
       "longitude": 145.15,
       "daily": {
         "time": [
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08",
           "2026-05-09",
           "2026-05-10"
         ],
         "weathercode": [
+          63,
+          75,
+          53,
           53,
           51
         ],
         "temperature_2m_max": [
+          17.9,
+          10.9,
+          14.0,
           15.2,
           14.5
         ],
         "temperature_2m_min": [
+          10.2,
+          4.8,
+          11.4,
           12.9,
           12.4
         ],
         "precipitation_sum": [
+          13.6,
+          27.6,
+          6.5,
           3.1,
           2.0
         ],
         "precipitation_probability_max": [
+          99,
+          100,
+          94,
           55,
           25
         ],
         "windspeed_10m_max": [
+          30.4,
+          26.4,
+          29.4,
           14.9,
           11.4
         ],
         "windgusts_10m_max": [
+          58.7,
+          61.6,
+          67.3,
           39.2,
           29.5
         ],
         "winddirection_10m_dominant": [
+          316,
+          244,
+          234,
           229,
           207
         ],
+        "relative_humidity_2m_mean": [
+          74,
+          78,
+          79,
+          85,
+          80
+        ],
+        "et0_fao_evapotranspiration": [
+          1.99,
+          1.48,
+          1.64,
+          0.94,
+          1.02
+        ],
         "uv_index_max": [
+          3.95,
+          3.65,
+          2.9,
           1.7,
           1.15
         ],
         "sunrise": [
+          "2026-05-06T07:05",
+          "2026-05-07T07:05",
+          "2026-05-08T07:06",
           "2026-05-09T07:07",
           "2026-05-10T07:08"
         ],
         "sunset": [
+          "2026-05-06T17:27",
+          "2026-05-07T17:26",
+          "2026-05-08T17:24",
           "2026-05-09T17:24",
           "2026-05-10T17:23"
         ]
@@ -140,6 +247,8 @@
         "windspeed_10m_max": "km/h",
         "windgusts_10m_max": "km/h",
         "winddirection_10m_dominant": "\u00b0",
+        "relative_humidity_2m_mean": "%",
+        "et0_fao_evapotranspiration": "mm",
         "uv_index_max": "",
         "sunrise": "iso8601",
         "sunset": "iso8601"
@@ -151,50 +260,100 @@
       "longitude": 145.5167,
       "daily": {
         "time": [
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08",
           "2026-05-09",
           "2026-05-10"
         ],
         "weathercode": [
+          63,
+          75,
+          55,
           53,
           51
         ],
         "temperature_2m_max": [
+          15.8,
+          7.9,
+          12.6,
           13.5,
           13.3
         ],
         "temperature_2m_min": [
+          8.4,
+          4.5,
+          7.8,
           10.8,
           10.9
         ],
         "precipitation_sum": [
+          9.0,
+          21.1,
+          14.2,
           4.6,
           0.9
         ],
         "precipitation_probability_max": [
+          95,
+          100,
+          94,
           59,
           18
         ],
         "windspeed_10m_max": [
+          19.2,
+          17.2,
+          18.7,
           10.7,
           11.7
         ],
         "windgusts_10m_max": [
+          49.0,
+          50.0,
+          53.3,
           27.4,
           28.8
         ],
         "winddirection_10m_dominant": [
+          341,
+          265,
+          236,
           213,
           178
         ],
+        "relative_humidity_2m_mean": [
+          77,
+          96,
+          97,
+          96,
+          88
+        ],
+        "et0_fao_evapotranspiration": [
+          1.52,
+          0.67,
+          0.59,
+          0.58,
+          0.73
+        ],
         "uv_index_max": [
+          3.75,
+          2.85,
+          1.45,
           1.4,
           2.7
         ],
         "sunrise": [
+          "2026-05-06T07:02",
+          "2026-05-07T07:03",
+          "2026-05-08T07:04",
           "2026-05-09T07:05",
           "2026-05-10T07:06"
         ],
         "sunset": [
+          "2026-05-06T17:26",
+          "2026-05-07T17:25",
+          "2026-05-08T17:24",
           "2026-05-09T17:23",
           "2026-05-10T17:22"
         ]
@@ -209,6 +368,8 @@
         "windspeed_10m_max": "km/h",
         "windgusts_10m_max": "km/h",
         "winddirection_10m_dominant": "\u00b0",
+        "relative_humidity_2m_mean": "%",
+        "et0_fao_evapotranspiration": "mm",
         "uv_index_max": "",
         "sunrise": "iso8601",
         "sunset": "iso8601"
@@ -220,50 +381,100 @@
       "longitude": 146.133,
       "daily": {
         "time": [
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08",
           "2026-05-09",
           "2026-05-10"
         ],
         "weathercode": [
+          63,
+          61,
+          51,
           3,
           3
         ],
         "temperature_2m_max": [
+          14.7,
+          9.2,
+          12.9,
           15.8,
           14.2
         ],
         "temperature_2m_min": [
+          4.0,
+          4.8,
+          6.4,
           9.9,
           8.3
         ],
         "precipitation_sum": [
+          4.4,
+          6.6,
+          4.2,
           0.0,
           0.0
         ],
         "precipitation_probability_max": [
+          78,
+          94,
+          84,
           6,
           0
         ],
         "windspeed_10m_max": [
+          14.4,
+          16.9,
+          9.2,
           10.5,
           14.2
         ],
         "windgusts_10m_max": [
+          37.4,
+          49.3,
+          29.9,
           28.1,
           36.0
         ],
         "winddirection_10m_dominant": [
+          307,
+          271,
+          275,
           180,
           182
         ],
+        "relative_humidity_2m_mean": [
+          83,
+          85,
+          90,
+          84,
+          81
+        ],
+        "et0_fao_evapotranspiration": [
+          1.46,
+          1.03,
+          0.79,
+          1.11,
+          1.27
+        ],
         "uv_index_max": [
+          4.15,
+          3.7,
+          0.9,
           3.2,
           3.65
         ],
         "sunrise": [
+          "2026-05-06T06:59",
+          "2026-05-07T07:00",
+          "2026-05-08T07:01",
           "2026-05-09T07:02",
           "2026-05-10T07:03"
         ],
         "sunset": [
+          "2026-05-06T17:24",
+          "2026-05-07T17:23",
+          "2026-05-08T17:22",
           "2026-05-09T17:21",
           "2026-05-10T17:20"
         ]
@@ -278,6 +489,8 @@
         "windspeed_10m_max": "km/h",
         "windgusts_10m_max": "km/h",
         "winddirection_10m_dominant": "\u00b0",
+        "relative_humidity_2m_mean": "%",
+        "et0_fao_evapotranspiration": "mm",
         "uv_index_max": "",
         "sunrise": "iso8601",
         "sunset": "iso8601"
@@ -289,50 +502,100 @@
       "longitude": 145.744,
       "daily": {
         "time": [
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08",
           "2026-05-09",
           "2026-05-10"
         ],
         "weathercode": [
+          71,
+          75,
+          61,
           51,
           51
         ],
         "temperature_2m_max": [
+          12.4,
+          4.9,
+          9.1,
           12.0,
           10.9
         ],
         "temperature_2m_min": [
+          6.7,
+          2.2,
+          5.2,
           8.8,
           7.9
         ],
         "precipitation_sum": [
+          5.3,
+          17.8,
+          19.7,
           0.8,
           0.6
         ],
         "precipitation_probability_max": [
+          94,
+          100,
+          100,
           37,
           11
         ],
         "windspeed_10m_max": [
+          17.6,
+          18.3,
+          20.5,
           13.3,
           12.8
         ],
         "windgusts_10m_max": [
+          49.0,
+          52.9,
+          59.0,
           37.4,
           35.6
         ],
         "winddirection_10m_dominant": [
+          330,
+          230,
+          218,
           188,
           166
         ],
+        "relative_humidity_2m_mean": [
+          84,
+          98,
+          100,
+          98,
+          95
+        ],
+        "et0_fao_evapotranspiration": [
+          1.23,
+          0.51,
+          0.35,
+          0.56,
+          0.66
+        ],
         "uv_index_max": [
+          4.1,
+          1.9,
+          0.6,
           1.4,
           3.6
         ],
         "sunrise": [
+          "2026-05-06T07:01",
+          "2026-05-07T07:02",
+          "2026-05-08T07:03",
           "2026-05-09T07:04",
           "2026-05-10T07:05"
         ],
         "sunset": [
+          "2026-05-06T17:25",
+          "2026-05-07T17:24",
+          "2026-05-08T17:23",
           "2026-05-09T17:22",
           "2026-05-10T17:21"
         ]
@@ -347,6 +610,8 @@
         "windspeed_10m_max": "km/h",
         "windgusts_10m_max": "km/h",
         "winddirection_10m_dominant": "\u00b0",
+        "relative_humidity_2m_mean": "%",
+        "et0_fao_evapotranspiration": "mm",
         "uv_index_max": "",
         "sunrise": "iso8601",
         "sunset": "iso8601"
