@@ -116,8 +116,18 @@ temperature runs cooler than air.
    If the recommended window collapses to < 3 hours, treat that day as unavailable.
 
 5. SEND RULE: ALWAYS create a Gmail draft addressed to jchandler1995@gmail.com
-   (a Google Script forwards drafts from there). The report runs in one of two
-   MODES, decided by the assessment:
+   (a Google Script forwards drafts from there).
+
+   TOOL CALL HINT: when invoking the Gmail `create_draft` MCP tool —
+   - `to` is REQUIRED and must be an ARRAY of bare email strings, e.g.
+     `to: ["jchandler1995@gmail.com"]`. A single string will fail.
+     Do NOT use the "Name <email>" format — bare addresses only.
+   - `htmlBody` is camelCase (not `html_body`). Put the rendered HTML there.
+   - `body` is the plain-text fallback. Provide a stripped-down text version
+     (subject + verdict + key stats) so it renders in clients that block HTML.
+   - `subject` is a plain string.
+
+   The report runs in one of two MODES, decided by the assessment:
 
    - MODE A — RIDE: at least one DESTINATION is rated ⚠️ Marginal or better on
      an available day (post-adjustment window ≥ 3 hours). Recommend the best
