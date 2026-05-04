@@ -11,8 +11,13 @@ Edit this file directly when tuning behaviour — it's the canonical version.
 
 This routine's purpose is to alert John if the weekend looks like it'll be a good time for riding or not.
 
-BIKE CONTEXT: superbike on semi-slick tyres. Slicks need warmth and DRY roads to
-grip safely — wet/damp surfaces and cold temps are non-negotiable disqualifiers.
+BIKE CONTEXT: 2018 Aprilia Tuono 1100 V4 Factory — a 175hp super-naked V4 on
+semi-slick supersport tyres (Öhlins suspension, forged wheels). Two implications
+for ride decisions:
+- Tyres: semi-slicks need warmth and DRY roads to grip safely. Wet/damp
+  surfaces and cold temps are non-negotiable disqualifiers.
+- Naked bodywork (no fairing): wind exposure matters more than on a faired
+  superbike — sustained or gusty conditions are notably more fatiguing.
 Road condition is the dominant factor; weather quality is secondary.
 
 LOCATION ROLES:
