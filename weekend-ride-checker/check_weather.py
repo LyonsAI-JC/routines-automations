@@ -34,6 +34,8 @@ DAILY_FIELDS = [
     "windspeed_10m_max",
     "windgusts_10m_max",
     "winddirection_10m_dominant",
+    "relative_humidity_2m_mean",
+    "et0_fao_evapotranspiration",
     "uv_index_max",
     "sunrise",
     "sunset",
@@ -63,11 +65,15 @@ def fetch_forecast(lat: float, lng: float, start: date, end: date) -> dict:
 
 def main() -> int:
     sat, sun = upcoming_weekend()
-    print(f"Fetching weather for {sat} and {sun}", file=sys.stderr)
+    # Wed/Thu/Fri before the weekend - used by the routine to assess whether
+    # roads will be wet or dry come Saturday.
+    prior_days = [sat - timedelta(days=n) for n in (3, 2, 1)]
+    start, end = prior_days[0], sun
+    print(f"Fetching weather {start} to {end}", file=sys.stderr)
 
     locations_data = []
     for loc in LOCATIONS:
-        raw = fetch_forecast(loc["lat"], loc["lng"], sat, sun)
+        raw = fetch_forecast(loc["lat"], loc["lng"], start, end)
         locations_data.append({
             "name": loc["name"],
             "latitude": loc["lat"],
@@ -80,6 +86,7 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "timezone": TIMEZONE,
         "weekend": {"saturday": sat.isoformat(), "sunday": sun.isoformat()},
+        "prior_days": [d.isoformat() for d in prior_days],
         "source": "https://open-meteo.com",
         "locations": locations_data,
     }
