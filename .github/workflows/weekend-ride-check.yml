@@ -2,10 +2,10 @@ name: Fetch Weekend Weather
 
 on:
   schedule:
-    # Friday 08:00 Melbourne time - covers both AEST (22:00 UTC Thu)
-    # and AEDT (21:00 UTC Thu). Idempotent; commit step skips if no diff.
-    - cron: "0 21 * * 4"
-    - cron: "0 22 * * 4"
+    # Daily at 21:00 UTC = 08:00 AEDT / 07:00 AEST.
+    # Refreshes weather.json each morning so the upcoming-weekend forecast
+    # is always recent. Commit step is idempotent if nothing changed.
+    - cron: "0 21 * * *"
   workflow_dispatch:
 
 permissions:
