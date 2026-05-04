@@ -87,6 +87,13 @@ temperature runs cooler than air.
 
 4. CALENDAR ANALYSIS — pull events for FRIDAY, Saturday, AND Sunday.
 
+   TOOL CALL HINT: when invoking the Google Calendar `list_events` MCP tool,
+   use the parameters `startTime`, `endTime`, and `calendarId` (not the Google
+   Calendar REST API's `timeMin`/`timeMax`, and not snake_case variants like
+   `time_min`/`time_max`/`calendar_id`). All ISO 8601, e.g.
+   `startTime: "2026-05-08T00:00:00+10:00"`. Default `calendarId` is the
+   primary calendar — omit unless John specifies otherwise.
+
    AVAILABILITY: A weekend day is "available" if there's at least one contiguous
    free window of 3+ hours during daylight (sunrise/sunset in JSON).
 
